@@ -1,0 +1,11 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+
+# Ignore system files
+.DS_Store  # MacOS metadata
+Thumbs.db  # Windows metadata
