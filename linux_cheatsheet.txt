@@ -1,0 +1,33 @@
+# Linux Commands
+ls        → List files and directories
+cd        → Change directory
+pwd       → Show current directory
+mkdir     → Create a new directory
+touch     → Create an empty file
+rm -rf    → Delete files or directories (⚠️ Permanent!)
+cp        → Copy files or directories
+mv        → Move/rename files
+chmod     → Change file permissions
+chown     → Change file ownership
+echo "text" > file.txt  → Write text to a file
+cat file.txt  → Display file contents
+grep "word" file.txt  → Search for a word in a file
+
+# Git Commands
+git init         → Initialize a new repository
+git status       → Show changed files
+git add .        → Stage all changes
+git commit -m "message" → Commit changes
+git push origin main → Push to GitHub
+git pull origin main → Update local repo from GitHub
+git log --oneline → Show commit history
+git branch       → List branches
+git checkout -b new_branch → Create and switch to a new branch
+git merge branch_name → Merge a branch into main
+git remote -v    → Show remote URLs
+git clone repo_url → Clone a GitHub repo
+
+# Git Branch Visualization
+git log --oneline --decorate --all --graph  → Show branches in a compact graph
+git log --all --decorate --oneline --graph  → Show branches in a tree structure
+git branch -vv  → Show local branches with tracking info
